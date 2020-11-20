@@ -3,18 +3,49 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB0389C0255073700095F893 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0389BF255073700095F893 /* API.swift */; };
+		BB0389C5255073990095F893 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0389C4255073990095F893 /* Network.swift */; };
+		BB0389CE255083950095F893 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0389CD255083950095F893 /* AddView.swift */; };
+		BB0389D6255090460095F893 /* AddRouteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0389D5255090460095F893 /* AddRouteView.swift */; };
+		BB0389DB255098620095F893 /* AddGymView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0389DA255098620095F893 /* AddGymView.swift */; };
+		BB0389E0255099450095F893 /* AddWallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0389DF255099450095F893 /* AddWallView.swift */; };
+		BB0389E82550994C0095F893 /* AddRopeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0389E72550994C0095F893 /* AddRopeView.swift */; };
+		BB66FC80255DD9A300D1133B /* GymView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB66FC7F255DD9A300D1133B /* GymView.swift */; };
+		BB6DEF132567807F00F323CD /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6DEF122567807F00F323CD /* Config.swift */; };
+		BB93A39325506D73002C8565 /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = BB93A39225506D73002C8565 /* Apollo */; };
+		BB93A39525506D73002C8565 /* ApolloCore in Frameworks */ = {isa = PBXBuildFile; productRef = BB93A39425506D73002C8565 /* ApolloCore */; };
+		BB93A39725506D73002C8565 /* ApolloCodegenLib in Frameworks */ = {isa = PBXBuildFile; productRef = BB93A39625506D73002C8565 /* ApolloCodegenLib */; };
 		BB9E2ACF2550671300E57411 /* rockaholicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9E2ACE2550671300E57411 /* rockaholicApp.swift */; };
-		BB9E2AD12550671300E57411 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9E2AD02550671300E57411 /* ContentView.swift */; };
+		BB9E2AD12550671300E57411 /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9E2AD02550671300E57411 /* ExploreView.swift */; };
 		BB9E2AD32550671400E57411 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB9E2AD22550671400E57411 /* Assets.xcassets */; };
 		BB9E2AD62550671400E57411 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB9E2AD52550671400E57411 /* Preview Assets.xcassets */; };
 		BB9E2AD82550671400E57411 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9E2AD72550671400E57411 /* Persistence.swift */; };
 		BB9E2ADB2550671400E57411 /* rockaholic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BB9E2AD92550671400E57411 /* rockaholic.xcdatamodeld */; };
 		BB9E2AE62550671400E57411 /* rockaholicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9E2AE52550671400E57411 /* rockaholicTests.swift */; };
 		BB9E2AF12550671400E57411 /* rockaholicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9E2AF02550671400E57411 /* rockaholicUITests.swift */; };
+		BBC1B3082550BE110040F493 /* GymPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC1B3072550BE110040F493 /* GymPicker.swift */; };
+		BBC1B3102550C0BE0040F493 /* GymWall.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC1B30F2550C0BE0040F493 /* GymWall.swift */; };
+		BBC1B3152550C0C40040F493 /* GymRope.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC1B3142550C0C40040F493 /* GymRope.swift */; };
+		BBC1B31A2550C42F0040F493 /* GymSetter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC1B3192550C42F0040F493 /* GymSetter.swift */; };
+		BBC1B31F2550C4820040F493 /* GymSetter.graphql in Resources */ = {isa = PBXBuildFile; fileRef = BBC1B31E2550C4820040F493 /* GymSetter.graphql */; };
+		BBC1B3272550C6FF0040F493 /* AddSetterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC1B3262550C6FF0040F493 /* AddSetterView.swift */; };
+		BBC1B32C2550D4510040F493 /* GymWall.graphql in Resources */ = {isa = PBXBuildFile; fileRef = BBC1B32B2550D4510040F493 /* GymWall.graphql */; };
+		BBC1B331255391610040F493 /* AddedModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC1B330255391610040F493 /* AddedModal.swift */; };
+		BBC1B33625539A0C0040F493 /* GymRoute.graphql in Resources */ = {isa = PBXBuildFile; fileRef = BBC1B33525539A0C0040F493 /* GymRoute.graphql */; };
+		BBC1B33B25539AAC0040F493 /* GymRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBC1B33A25539AAC0040F493 /* GymRoute.swift */; };
+		BBD32BCF256346FE00342C16 /* RouteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD32BCE256346FE00342C16 /* RouteView.swift */; };
+		BBD32BD4256347E500342C16 /* ExploreRoutesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD32BD3256347E500342C16 /* ExploreRoutesView.swift */; };
+		BBD32BD92563480B00342C16 /* RouteDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD32BD82563480B00342C16 /* RouteDetailView.swift */; };
+		BBD43E252563508800E99E68 /* URLExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD43E242563508800E99E68 /* URLExtensions.swift */; };
+		BBD43E32256371D600E99E68 /* GymHoldColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD43E31256371D600E99E68 /* GymHoldColors.swift */; };
+		BBDCDBEB25506E2300889AB0 /* GymOwner.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDCDBEA25506E2300889AB0 /* GymOwner.swift */; };
+		BBDCDBF325506E2F00889AB0 /* Gym.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBDCDBF225506E2F00889AB0 /* Gym.swift */; };
+		BBDCDC0125506FAF00889AB0 /* Gym.graphql in Resources */ = {isa = PBXBuildFile; fileRef = BBDCDC0025506FAF00889AB0 /* Gym.graphql */; };
+		BBE4EDF12550B266008DF0BC /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE4EDF02550B266008DF0BC /* Store.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +66,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BB0389BE255073330095F893 /* schema.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = schema.json; sourceTree = "<group>"; };
+		BB0389BF255073700095F893 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		BB0389C4255073990095F893 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		BB0389CD255083950095F893 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		BB0389D5255090460095F893 /* AddRouteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRouteView.swift; sourceTree = "<group>"; };
+		BB0389DA255098620095F893 /* AddGymView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGymView.swift; sourceTree = "<group>"; };
+		BB0389DF255099450095F893 /* AddWallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWallView.swift; sourceTree = "<group>"; };
+		BB0389E72550994C0095F893 /* AddRopeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRopeView.swift; sourceTree = "<group>"; };
+		BB66FC7F255DD9A300D1133B /* GymView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymView.swift; sourceTree = "<group>"; };
+		BB6DEF122567807F00F323CD /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		BB9E2ACB2550671300E57411 /* rockaholic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rockaholic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB9E2ACE2550671300E57411 /* rockaholicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rockaholicApp.swift; sourceTree = "<group>"; };
-		BB9E2AD02550671300E57411 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BB9E2AD02550671300E57411 /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
 		BB9E2AD22550671400E57411 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB9E2AD52550671400E57411 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BB9E2AD72550671400E57411 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -49,6 +90,26 @@
 		BB9E2AEC2550671400E57411 /* rockaholicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rockaholicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB9E2AF02550671400E57411 /* rockaholicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rockaholicUITests.swift; sourceTree = "<group>"; };
 		BB9E2AF22550671400E57411 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BBC1B3072550BE110040F493 /* GymPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymPicker.swift; sourceTree = "<group>"; };
+		BBC1B30F2550C0BE0040F493 /* GymWall.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymWall.swift; sourceTree = "<group>"; };
+		BBC1B3142550C0C40040F493 /* GymRope.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymRope.swift; sourceTree = "<group>"; };
+		BBC1B3192550C42F0040F493 /* GymSetter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymSetter.swift; sourceTree = "<group>"; };
+		BBC1B31E2550C4820040F493 /* GymSetter.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = GymSetter.graphql; sourceTree = "<group>"; };
+		BBC1B3262550C6FF0040F493 /* AddSetterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSetterView.swift; sourceTree = "<group>"; };
+		BBC1B32B2550D4510040F493 /* GymWall.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = GymWall.graphql; sourceTree = "<group>"; };
+		BBC1B330255391610040F493 /* AddedModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddedModal.swift; sourceTree = "<group>"; };
+		BBC1B33525539A0C0040F493 /* GymRoute.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = GymRoute.graphql; sourceTree = "<group>"; };
+		BBC1B33A25539AAC0040F493 /* GymRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymRoute.swift; sourceTree = "<group>"; };
+		BBD32BCE256346FE00342C16 /* RouteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteView.swift; sourceTree = "<group>"; };
+		BBD32BD3256347E500342C16 /* ExploreRoutesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreRoutesView.swift; sourceTree = "<group>"; };
+		BBD32BD82563480B00342C16 /* RouteDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteDetailView.swift; sourceTree = "<group>"; };
+		BBD43E242563508800E99E68 /* URLExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLExtensions.swift; sourceTree = "<group>"; };
+		BBD43E31256371D600E99E68 /* GymHoldColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymHoldColors.swift; sourceTree = "<group>"; };
+		BBDCDBEA25506E2300889AB0 /* GymOwner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymOwner.swift; sourceTree = "<group>"; };
+		BBDCDBF225506E2F00889AB0 /* Gym.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gym.swift; sourceTree = "<group>"; };
+		BBDCDC0025506FAF00889AB0 /* Gym.graphql */ = {isa = PBXFileReference; lastKnownFileType = text; path = Gym.graphql; sourceTree = "<group>"; };
+		BBE4EDF02550B266008DF0BC /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		BBEA64E0255DAD0C003AA6B0 /* rockaholic.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = rockaholic.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +117,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB93A39525506D73002C8565 /* ApolloCore in Frameworks */,
+				BB93A39725506D73002C8565 /* ApolloCodegenLib in Frameworks */,
+				BB93A39325506D73002C8565 /* Apollo in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +140,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BB0389CC255083840095F893 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				BBD32BE02563497400342C16 /* ExploreTab */,
+				BBC1B3062550BDFC0040F493 /* helpers */,
+				BB0389CD255083950095F893 /* AddView.swift */,
+				BB0389DF255099450095F893 /* AddWallView.swift */,
+				BB0389E72550994C0095F893 /* AddRopeView.swift */,
+				BB0389D5255090460095F893 /* AddRouteView.swift */,
+				BB0389DA255098620095F893 /* AddGymView.swift */,
+				BBC1B3262550C6FF0040F493 /* AddSetterView.swift */,
+				BB66FC7F255DD9A300D1133B /* GymView.swift */,
+				BBD32BD3256347E500342C16 /* ExploreRoutesView.swift */,
+				BBD32BCE256346FE00342C16 /* RouteView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		BB93A39025506C8B002C8565 /* static */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = static;
+			sourceTree = "<group>";
+		};
 		BB9E2AC22550671300E57411 = {
 			isa = PBXGroup;
 			children = (
@@ -99,13 +188,22 @@
 		BB9E2ACD2550671300E57411 /* rockaholic */ = {
 			isa = PBXGroup;
 			children = (
+				BBEA64E0255DAD0C003AA6B0 /* rockaholic.entitlements */,
+				BB0389CC255083840095F893 /* views */,
+				BBDCDBE925506E1600889AB0 /* model */,
+				BB93A39025506C8B002C8565 /* static */,
 				BB9E2ACE2550671300E57411 /* rockaholicApp.swift */,
-				BB9E2AD02550671300E57411 /* ContentView.swift */,
+				BBD43E31256371D600E99E68 /* GymHoldColors.swift */,
 				BB9E2AD22550671400E57411 /* Assets.xcassets */,
 				BB9E2AD72550671400E57411 /* Persistence.swift */,
 				BB9E2ADC2550671400E57411 /* Info.plist */,
+				BB0389BF255073700095F893 /* API.swift */,
+				BB0389BE255073330095F893 /* schema.json */,
 				BB9E2AD92550671400E57411 /* rockaholic.xcdatamodeld */,
 				BB9E2AD42550671400E57411 /* Preview Content */,
+				BB0389C4255073990095F893 /* Network.swift */,
+				BBD43E242563508800E99E68 /* URLExtensions.swift */,
+				BB6DEF122567807F00F323CD /* Config.swift */,
 			);
 			path = rockaholic;
 			sourceTree = "<group>";
@@ -136,6 +234,42 @@
 			path = rockaholicUITests;
 			sourceTree = "<group>";
 		};
+		BBC1B3062550BDFC0040F493 /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+				BBC1B3072550BE110040F493 /* GymPicker.swift */,
+				BBC1B330255391610040F493 /* AddedModal.swift */,
+				BBD32BD82563480B00342C16 /* RouteDetailView.swift */,
+			);
+			path = helpers;
+			sourceTree = "<group>";
+		};
+		BBD32BE02563497400342C16 /* ExploreTab */ = {
+			isa = PBXGroup;
+			children = (
+				BB9E2AD02550671300E57411 /* ExploreView.swift */,
+			);
+			path = ExploreTab;
+			sourceTree = "<group>";
+		};
+		BBDCDBE925506E1600889AB0 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				BBDCDBEA25506E2300889AB0 /* GymOwner.swift */,
+				BBDCDBF225506E2F00889AB0 /* Gym.swift */,
+				BBDCDC0025506FAF00889AB0 /* Gym.graphql */,
+				BBE4EDF02550B266008DF0BC /* Store.swift */,
+				BBC1B30F2550C0BE0040F493 /* GymWall.swift */,
+				BBC1B3142550C0C40040F493 /* GymRope.swift */,
+				BBC1B3192550C42F0040F493 /* GymSetter.swift */,
+				BBC1B31E2550C4820040F493 /* GymSetter.graphql */,
+				BBC1B32B2550D4510040F493 /* GymWall.graphql */,
+				BBC1B33525539A0C0040F493 /* GymRoute.graphql */,
+				BBC1B33A25539AAC0040F493 /* GymRoute.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +277,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BB9E2AF52550671400E57411 /* Build configuration list for PBXNativeTarget "rockaholic" */;
 			buildPhases = (
+				BBDCDC052550703000889AB0 /* Generate Apollo GraphQL API */,
 				BB9E2AC72550671300E57411 /* Sources */,
 				BB9E2AC82550671300E57411 /* Frameworks */,
 				BB9E2AC92550671300E57411 /* Resources */,
@@ -152,6 +287,11 @@
 			dependencies = (
 			);
 			name = rockaholic;
+			packageProductDependencies = (
+				BB93A39225506D73002C8565 /* Apollo */,
+				BB93A39425506D73002C8565 /* ApolloCore */,
+				BB93A39625506D73002C8565 /* ApolloCodegenLib */,
+			);
 			productName = rockaholic;
 			productReference = BB9E2ACB2550671300E57411 /* rockaholic.app */;
 			productType = "com.apple.product-type.application";
@@ -223,6 +363,9 @@
 				Base,
 			);
 			mainGroup = BB9E2AC22550671300E57411;
+			packageReferences = (
+				BB93A39125506D73002C8565 /* XCRemoteSwiftPackageReference "apollo-ios" */,
+			);
 			productRefGroup = BB9E2ACC2550671300E57411 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -239,6 +382,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBC1B32C2550D4510040F493 /* GymWall.graphql in Resources */,
+				BBC1B33625539A0C0040F493 /* GymRoute.graphql in Resources */,
+				BBDCDC0125506FAF00889AB0 /* Gym.graphql in Resources */,
+				BBC1B31F2550C4820040F493 /* GymSetter.graphql in Resources */,
 				BB9E2AD62550671400E57411 /* Preview Assets.xcassets in Resources */,
 				BB9E2AD32550671400E57411 /* Assets.xcassets in Resources */,
 			);
@@ -260,15 +407,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		BBDCDC052550703000889AB0 /* Generate Apollo GraphQL API */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Generate Apollo GraphQL API";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Go to the build root and search up the chain to find the Derived Data Path where the source packages are checked out.\nDERIVED_DATA_CANDIDATE=\"${BUILD_ROOT}\"\n\nwhile ! [ -d \"${DERIVED_DATA_CANDIDATE}/SourcePackages\" ]; do\n  if [ \"${DERIVED_DATA_CANDIDATE}\" = / ]; then\n    echo >&2 \"error: Unable to locate SourcePackages directory from BUILD_ROOT: '${BUILD_ROOT}'\"\n    exit 1\n  fi\n\n  DERIVED_DATA_CANDIDATE=\"$(dirname \"${DERIVED_DATA_CANDIDATE}\")\"\ndone\n\n# Grab a reference to the directory where scripts are checked out\nSCRIPT_PATH=\"${DERIVED_DATA_CANDIDATE}/SourcePackages/checkouts/apollo-ios/scripts\"\n\nif [ -z \"${SCRIPT_PATH}\" ]; then\n    echo >&2 \"error: Couldn't find the CLI script in your checked out SPM packages; make sure to add the framework to your project.\"\n    exit 1\nfi\n\ncd \"${SRCROOT}/${TARGET_NAME}\"\n\"${SCRIPT_PATH}\"/run-bundled-codegen.sh codegen:generate --target=swift --includes=./**/*.graphql --localSchemaFile=\"schema.json\" API.swift\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BB9E2AC72550671300E57411 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB66FC80255DD9A300D1133B /* GymView.swift in Sources */,
+				BBD32BCF256346FE00342C16 /* RouteView.swift in Sources */,
+				BBD43E32256371D600E99E68 /* GymHoldColors.swift in Sources */,
 				BB9E2AD82550671400E57411 /* Persistence.swift in Sources */,
-				BB9E2AD12550671300E57411 /* ContentView.swift in Sources */,
+				BB0389E82550994C0095F893 /* AddRopeView.swift in Sources */,
+				BB9E2AD12550671300E57411 /* ExploreView.swift in Sources */,
+				BB0389CE255083950095F893 /* AddView.swift in Sources */,
+				BBD32BD92563480B00342C16 /* RouteDetailView.swift in Sources */,
+				BBD32BD4256347E500342C16 /* ExploreRoutesView.swift in Sources */,
+				BB0389C5255073990095F893 /* Network.swift in Sources */,
+				BBC1B3102550C0BE0040F493 /* GymWall.swift in Sources */,
+				BBC1B33B25539AAC0040F493 /* GymRoute.swift in Sources */,
+				BB0389E0255099450095F893 /* AddWallView.swift in Sources */,
 				BB9E2ADB2550671400E57411 /* rockaholic.xcdatamodeld in Sources */,
+				BBDCDBF325506E2F00889AB0 /* Gym.swift in Sources */,
+				BBC1B3272550C6FF0040F493 /* AddSetterView.swift in Sources */,
+				BBDCDBEB25506E2300889AB0 /* GymOwner.swift in Sources */,
+				BB6DEF132567807F00F323CD /* Config.swift in Sources */,
+				BBC1B3152550C0C40040F493 /* GymRope.swift in Sources */,
+				BBD43E252563508800E99E68 /* URLExtensions.swift in Sources */,
+				BBE4EDF12550B266008DF0BC /* Store.swift in Sources */,
+				BBC1B3082550BE110040F493 /* GymPicker.swift in Sources */,
+				BBC1B331255391610040F493 /* AddedModal.swift in Sources */,
 				BB9E2ACF2550671300E57411 /* rockaholicApp.swift in Sources */,
+				BBC1B31A2550C42F0040F493 /* GymSetter.swift in Sources */,
+				BB0389D6255090460095F893 /* AddRouteView.swift in Sources */,
+				BB0389C0255073700095F893 /* API.swift in Sources */,
+				BB0389DB255098620095F893 /* AddGymView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,7 +547,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -410,7 +602,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -425,6 +617,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = rockaholic/rockaholic.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"rockaholic/Preview Content\"";
 				DEVELOPMENT_TEAM = UWFLB4GC25;
@@ -435,6 +628,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.01;
 				PRODUCT_BUNDLE_IDENTIFIER = com.pais.rockaholic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -447,6 +641,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = rockaholic/rockaholic.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"rockaholic/Preview Content\"";
 				DEVELOPMENT_TEAM = UWFLB4GC25;
@@ -457,6 +652,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.01;
 				PRODUCT_BUNDLE_IDENTIFIER = com.pais.rockaholic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -588,6 +784,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BB93A39125506D73002C8565 /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apollographql/apollo-ios.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 0.36.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BB93A39225506D73002C8565 /* Apollo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BB93A39125506D73002C8565 /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = Apollo;
+		};
+		BB93A39425506D73002C8565 /* ApolloCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BB93A39125506D73002C8565 /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = ApolloCore;
+		};
+		BB93A39625506D73002C8565 /* ApolloCodegenLib */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BB93A39125506D73002C8565 /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = ApolloCodegenLib;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		BB9E2AD92550671400E57411 /* rockaholic.xcdatamodeld */ = {

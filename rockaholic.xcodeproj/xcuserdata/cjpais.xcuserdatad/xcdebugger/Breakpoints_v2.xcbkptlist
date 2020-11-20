@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "CFA81F65-68B5-4866-B698-B2DE6AA4B7CE"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E13B0C6C-6E2C-4FDB-B495-1E31DB19BE5D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "rockaholic/views/AddWallView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "addWall()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E13B0C6C-6E2C-4FDB-B495-1E31DB19BE5D - 118638f0136a9b39"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "rockaholic.AddWallView.(addWall in _05D760FD95EC6ECEEC238F7198930AC2)() -&gt; ()"
+                  moduleName = "rockaholic"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cjpais/code/apple-ios-ipad-mac/climbing/rockaholic/rockaholic/views/AddWallView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "3104">
+               </Location>
+               <Location
+                  uuid = "E13B0C6C-6E2C-4FDB-B495-1E31DB19BE5D - 981be5dae4c4d33c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;Apollo.GraphQLResult&lt;rockaholic.WallMutation.Data&gt;, Swift.Error&gt;) -&gt; () in rockaholic.AddWallView.(addWall in _05D760FD95EC6ECEEC238F7198930AC2)() -&gt; ()"
+                  moduleName = "rockaholic"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cjpais/code/apple-ios-ipad-mac/climbing/rockaholic/rockaholic/views/AddWallView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "89"
+                  endingLineNumber = "89"
+                  offsetFromSymbolStart = "204">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DA13BCB8-28D8-464B-83C7-CC7241E73EEB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "rockaholic/views/AddWallView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "addWall()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

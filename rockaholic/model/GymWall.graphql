@@ -1,0 +1,9 @@
+
+mutation Wall($wall: gym_wall_insert_input!) {
+  insert_gym_wall_one(object: $wall) {
+	id
+	gym_ropes {
+	  id
+	}
+  }
+}

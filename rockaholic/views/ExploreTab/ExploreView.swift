@@ -8,20 +8,34 @@
 import SwiftUI
 import CoreData
 
-struct ContentView: View {
+struct ExploreView: View {
     @Environment(\.managedObjectContext) private var viewContext
+    @ObservedObject var state: Store
 
     @FetchRequest(
         sortDescriptors: [NSSortDescriptor(keyPath: \Item.timestamp, ascending: true)],
         animation: .default)
     private var items: FetchedResults<Item>
-
+    
     var body: some View {
-        List {
-            ForEach(items) { item in
-                Text("Item at \(item.timestamp!, formatter: itemFormatter)")
+        NavigationView {
+            VStack {
+                List {
+                    ForEach(state.gyms) { gym in
+                        NavigationLink(destination: GymView(gym: gym)) {
+                            VStack {
+                                Text(gym.name)
+                                    .bold()
+                                    .padding(.vertical)
+                                HStack {
+                                    Text("📞 \(gym.phone)").font(.subheadline)
+                                    Spacer()
+                                }
+                            }
+                        }
+                    }
+                }
             }
-            .onDelete(perform: deleteItems)
         }
         .toolbar {
             #if os(iOS)
@@ -32,6 +46,9 @@ struct ContentView: View {
                 Label("Add Item", systemImage: "plus")
             }
         }
+        .onAppear(perform: {
+            self.state.update()
+        })
     }
 
     private func addItem() {
@@ -75,6 +92,7 @@ private let itemFormatter: DateFormatter = {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView().environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
+        ExploreView(state: Store())
+            .environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
     }
 }

@@ -1,0 +1,26 @@
+query getGyms {
+  gym {
+	id
+	name
+	location
+	phone
+	reservation_link
+	web_url
+	owner_id
+	address
+	email
+	gym_walls {
+	  type
+	  name
+	  id
+	  gym_id
+	}
+	gym_ropes {
+	  gym_id
+	  id
+	  last_replaced
+	  name
+	  wall_id
+	}
+  }
+}

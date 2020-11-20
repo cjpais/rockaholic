@@ -1,0 +1,14 @@
+
+query listSetters {
+  setter {
+    name
+    id
+    climber_id
+  }
+}
+
+mutation Setter($setter: setter_insert_input!) {
+  insert_setter_one(object: $setter) {
+	id
+  }
+}

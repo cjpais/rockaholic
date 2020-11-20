@@ -1,0 +1,65 @@
+
+mutation GymRoute($route: gym_route_insert_input!) {
+  insert_gym_route_one(object: $route) {
+	id
+  }
+}
+
+query GetRoutes {
+  gym_route(limit: 20, order_by: {date_set: desc}) {
+	color
+	date_set
+	date_unset
+	gym_id
+	id
+	name
+	rope_id
+	set_grade
+	setter_id
+	wall_id
+	gym_rope {
+	  name
+	  wall_id
+	}
+	gym_wall {
+	  name
+	  type
+	  id
+	}
+	setter {
+	  name
+	  id
+	}
+	gym {
+	  name
+	}
+  }
+}
+
+query GetRouteFromGym($id: bigint) {
+  gym_route(where: {gym_id: {_eq: $id}}) {
+	color
+	date_set
+	date_unset
+	gym_id
+	id
+	name
+	rope_id
+	set_grade
+	setter_id
+	wall_id
+	gym_rope {
+	  name
+	  wall_id
+	}
+	gym_wall {
+	  name
+	  type
+	  id
+	}
+	setter {
+	  name
+	  id
+	}
+  }
+}
