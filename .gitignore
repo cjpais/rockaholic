@@ -89,4 +89,4 @@ fastlane/test_output
 
 iOSInjectionProject/
 
-Config.swift # ignore private config file
+rockaholic/Config.swift # ignore private config file

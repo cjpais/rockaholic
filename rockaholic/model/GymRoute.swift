@@ -45,7 +45,7 @@ struct GymRoute: Identifiable, Hashable {
         self.id = Int(route.id)
         self.gymId = Int(route.gymId)
         self.wallId = Int(route.wallId)
-        self.ropeId = Int(route.ropeId!)
+        self.ropeId = Int(route.ropeId ?? "-1")
         self.setterId = Int(route.setterId)
         
         self.name = route.name
@@ -62,7 +62,7 @@ struct GymRoute: Identifiable, Hashable {
         self.id = Int(route.id)
         self.gymId = Int(route.gymId)
         self.wallId = Int(route.wallId)
-        self.ropeId = Int(route.ropeId!)
+        self.ropeId = Int(route.ropeId ?? "-1")
         self.setterId = Int(route.setterId)
         
         self.name = route.name

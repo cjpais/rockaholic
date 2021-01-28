@@ -40,7 +40,12 @@ struct ExploreRoutesView: View {
                 //print("SUCCESS RESULT: \(graphQLResult)")
                 
                 if let routes = graphQLResult.data?.gymRoute {
-                    self.routes = routes.map{ GymRoute(route: $0) }
+                    print(routes)
+                    
+                    self.routes = routes.map{
+                        print($0)
+                        return GymRoute(route: $0)
+                    }
                     //print(gyms)
                 }
                 
